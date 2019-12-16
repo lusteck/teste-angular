@@ -1,0 +1,20 @@
+.teal:hover{
+    background-color: darkgreen !important;
+}
+
+.item-lista{
+    position: relative;
+}
+
+.btn-close{
+    background-color: #d40000;
+    right: 0;
+    top: 0;
+    line-height: 10px;
+    position: absolute;
+    display: block;
+}
+
+.btn-close:hover{
+    background-color: red;
+}

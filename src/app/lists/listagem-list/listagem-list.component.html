@@ -1,0 +1,10 @@
+<div class="row">
+    <h5>Lista da categoria: </h5>
+</div>
+<div class="row">
+    <a [routerLink]="['/categorie', idCategory, 'lists', l.id]" *ngFor="let l of listas" class="col scale-transition s12 m4">
+        <div class="card-panel teal">
+            <span class="card-title white-text">{{l.name}}</span>
+        </div>
+    </a>
+</div>
